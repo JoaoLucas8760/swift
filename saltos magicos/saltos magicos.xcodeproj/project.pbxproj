@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A0FB10B2A32335600A32102 /* saltos_magicosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0FB10A2A32335600A32102 /* saltos_magicosApp.swift */; };
+		6A0FB10D2A32335600A32102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0FB10C2A32335600A32102 /* ContentView.swift */; };
+		6A0FB10F2A32335800A32102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A0FB10E2A32335800A32102 /* Assets.xcassets */; };
+		6A0FB1122A32335800A32102 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A0FB1112A32335800A32102 /* Preview Assets.xcassets */; };
+		6A0FB11C2A32335800A32102 /* saltos_magicosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0FB11B2A32335800A32102 /* saltos_magicosTests.swift */; };
+		6A0FB1262A32335800A32102 /* saltos_magicosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0FB1252A32335800A32102 /* saltos_magicosUITests.swift */; };
+		6A0FB1282A32335800A32102 /* saltos_magicosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0FB1272A32335800A32102 /* saltos_magicosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A0FB1182A32335800A32102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A0FB0FF2A32335600A32102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A0FB1062A32335600A32102;
+			remoteInfo = "saltos magicos";
+		};
+		6A0FB1222A32335800A32102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A0FB0FF2A32335600A32102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A0FB1062A32335600A32102;
+			remoteInfo = "saltos magicos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A0FB1072A32335600A32102 /* saltos magicos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "saltos magicos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0FB10A2A32335600A32102 /* saltos_magicosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saltos_magicosApp.swift; sourceTree = "<group>"; };
+		6A0FB10C2A32335600A32102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A0FB10E2A32335800A32102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A0FB1112A32335800A32102 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A0FB1172A32335800A32102 /* saltos magicosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "saltos magicosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0FB11B2A32335800A32102 /* saltos_magicosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saltos_magicosTests.swift; sourceTree = "<group>"; };
+		6A0FB1212A32335800A32102 /* saltos magicosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "saltos magicosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0FB1252A32335800A32102 /* saltos_magicosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saltos_magicosUITests.swift; sourceTree = "<group>"; };
+		6A0FB1272A32335800A32102 /* saltos_magicosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saltos_magicosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A0FB1042A32335600A32102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0FB1142A32335800A32102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0FB11E2A32335800A32102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A0FB0FE2A32335600A32102 = {
+			isa = PBXGroup;
+			children = (
+				6A0FB1092A32335600A32102 /* saltos magicos */,
+				6A0FB11A2A32335800A32102 /* saltos magicosTests */,
+				6A0FB1242A32335800A32102 /* saltos magicosUITests */,
+				6A0FB1082A32335600A32102 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A0FB1082A32335600A32102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A0FB1072A32335600A32102 /* saltos magicos.app */,
+				6A0FB1172A32335800A32102 /* saltos magicosTests.xctest */,
+				6A0FB1212A32335800A32102 /* saltos magicosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A0FB1092A32335600A32102 /* saltos magicos */ = {
+			isa = PBXGroup;
+			children = (
+				6A0FB10A2A32335600A32102 /* saltos_magicosApp.swift */,
+				6A0FB10C2A32335600A32102 /* ContentView.swift */,
+				6A0FB10E2A32335800A32102 /* Assets.xcassets */,
+				6A0FB1102A32335800A32102 /* Preview Content */,
+			);
+			path = "saltos magicos";
+			sourceTree = "<group>";
+		};
+		6A0FB1102A32335800A32102 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A0FB1112A32335800A32102 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A0FB11A2A32335800A32102 /* saltos magicosTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A0FB11B2A32335800A32102 /* saltos_magicosTests.swift */,
+			);
+			path = "saltos magicosTests";
+			sourceTree = "<group>";
+		};
+		6A0FB1242A32335800A32102 /* saltos magicosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A0FB1252A32335800A32102 /* saltos_magicosUITests.swift */,
+				6A0FB1272A32335800A32102 /* saltos_magicosUITestsLaunchTests.swift */,
+			);
+			path = "saltos magicosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A0FB1062A32335600A32102 /* saltos magicos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0FB12B2A32335800A32102 /* Build configuration list for PBXNativeTarget "saltos magicos" */;
+			buildPhases = (
+				6A0FB1032A32335600A32102 /* Sources */,
+				6A0FB1042A32335600A32102 /* Frameworks */,
+				6A0FB1052A32335600A32102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "saltos magicos";
+			productName = "saltos magicos";
+			productReference = 6A0FB1072A32335600A32102 /* saltos magicos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A0FB1162A32335800A32102 /* saltos magicosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0FB12E2A32335800A32102 /* Build configuration list for PBXNativeTarget "saltos magicosTests" */;
+			buildPhases = (
+				6A0FB1132A32335800A32102 /* Sources */,
+				6A0FB1142A32335800A32102 /* Frameworks */,
+				6A0FB1152A32335800A32102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A0FB1192A32335800A32102 /* PBXTargetDependency */,
+			);
+			name = "saltos magicosTests";
+			productName = "saltos magicosTests";
+			productReference = 6A0FB1172A32335800A32102 /* saltos magicosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A0FB1202A32335800A32102 /* saltos magicosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0FB1312A32335800A32102 /* Build configuration list for PBXNativeTarget "saltos magicosUITests" */;
+			buildPhases = (
+				6A0FB11D2A32335800A32102 /* Sources */,
+				6A0FB11E2A32335800A32102 /* Frameworks */,
+				6A0FB11F2A32335800A32102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A0FB1232A32335800A32102 /* PBXTargetDependency */,
+			);
+			name = "saltos magicosUITests";
+			productName = "saltos magicosUITests";
+			productReference = 6A0FB1212A32335800A32102 /* saltos magicosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A0FB0FF2A32335600A32102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6A0FB1062A32335600A32102 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					6A0FB1162A32335800A32102 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6A0FB1062A32335600A32102;
+					};
+					6A0FB1202A32335800A32102 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6A0FB1062A32335600A32102;
+					};
+				};
+			};
+			buildConfigurationList = 6A0FB1022A32335600A32102 /* Build configuration list for PBXProject "saltos magicos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A0FB0FE2A32335600A32102;
+			productRefGroup = 6A0FB1082A32335600A32102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A0FB1062A32335600A32102 /* saltos magicos */,
+				6A0FB1162A32335800A32102 /* saltos magicosTests */,
+				6A0FB1202A32335800A32102 /* saltos magicosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A0FB1052A32335600A32102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0FB1122A32335800A32102 /* Preview Assets.xcassets in Resources */,
+				6A0FB10F2A32335800A32102 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0FB1152A32335800A32102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0FB11F2A32335800A32102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A0FB1032A32335600A32102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0FB10D2A32335600A32102 /* ContentView.swift in Sources */,
+				6A0FB10B2A32335600A32102 /* saltos_magicosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0FB1132A32335800A32102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0FB11C2A32335800A32102 /* saltos_magicosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0FB11D2A32335800A32102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0FB1282A32335800A32102 /* saltos_magicosUITestsLaunchTests.swift in Sources */,
+				6A0FB1262A32335800A32102 /* saltos_magicosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A0FB1192A32335800A32102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A0FB1062A32335600A32102 /* saltos magicos */;
+			targetProxy = 6A0FB1182A32335800A32102 /* PBXContainerItemProxy */;
+		};
+		6A0FB1232A32335800A32102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A0FB1062A32335600A32102 /* saltos magicos */;
+			targetProxy = 6A0FB1222A32335800A32102 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A0FB1292A32335800A32102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A0FB12A2A32335800A32102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A0FB12C2A32335800A32102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"saltos magicos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jldev.saltos-magicos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A0FB12D2A32335800A32102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"saltos magicos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jldev.saltos-magicos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A0FB12F2A32335800A32102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jldev.saltos-magicosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saltos magicos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/saltos magicos";
+			};
+			name = Debug;
+		};
+		6A0FB1302A32335800A32102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jldev.saltos-magicosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saltos magicos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/saltos magicos";
+			};
+			name = Release;
+		};
+		6A0FB1322A32335800A32102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jldev.saltos-magicosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "saltos magicos";
+			};
+			name = Debug;
+		};
+		6A0FB1332A32335800A32102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jldev.saltos-magicosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "saltos magicos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A0FB1022A32335600A32102 /* Build configuration list for PBXProject "saltos magicos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0FB1292A32335800A32102 /* Debug */,
+				6A0FB12A2A32335800A32102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0FB12B2A32335800A32102 /* Build configuration list for PBXNativeTarget "saltos magicos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0FB12C2A32335800A32102 /* Debug */,
+				6A0FB12D2A32335800A32102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0FB12E2A32335800A32102 /* Build configuration list for PBXNativeTarget "saltos magicosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0FB12F2A32335800A32102 /* Debug */,
+				6A0FB1302A32335800A32102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0FB1312A32335800A32102 /* Build configuration list for PBXNativeTarget "saltos magicosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0FB1322A32335800A32102 /* Debug */,
+				6A0FB1332A32335800A32102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A0FB0FF2A32335600A32102 /* Project object */;
+}
